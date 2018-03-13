@@ -1,0 +1,55 @@
+{
+  "project_info": {
+    "project_number": "708294021446",
+    "firebase_url": "https://game1-6c52a.firebaseio.com",
+    "project_id": "game1-6c52a",
+    "storage_bucket": "game1-6c52a.appspot.com"
+  },
+  "client": [
+    {
+      "client_info": {
+        "mobilesdk_app_id": "1:708294021446:android:bdad70e12f0a4f36",
+        "android_client_info": {
+          "package_name": "com.dogusumit.game"
+        }
+      },
+      "oauth_client": [
+        {
+          "client_id": "708294021446-q25h1o48b58ka4b4id3jj6quuca4m6qd.apps.googleusercontent.com",
+          "client_type": 1,
+          "android_info": {
+            "package_name": "com.dogusumit.game",
+            "certificate_hash": "9727f5c4b9cf42203449d23ac285f0a02a55a326"
+          }
+        },
+        {
+          "client_id": "708294021446-36sgmc5u4pc7dcou7e2tbn3sdrt3nnbr.apps.googleusercontent.com",
+          "client_type": 3
+        }
+      ],
+      "api_key": [
+        {
+          "current_key": "AIzaSyBGuTjGSO4WQnSjm9wrpsoF7jSr88D0-mU"
+        }
+      ],
+      "services": {
+        "analytics_service": {
+          "status": 1
+        },
+        "appinvite_service": {
+          "status": 2,
+          "other_platform_oauth_client": [
+            {
+              "client_id": "708294021446-36sgmc5u4pc7dcou7e2tbn3sdrt3nnbr.apps.googleusercontent.com",
+              "client_type": 3
+            }
+          ]
+        },
+        "ads_service": {
+          "status": 2
+        }
+      }
+    }
+  ],
+  "configuration_version": "1"
+}
