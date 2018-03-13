@@ -1,0 +1,18 @@
+<?xml version="1.0" encoding="utf-8"?>
+<resources>
+    <string name="app_name">Sarı Yıldız</string>
+    <string name="game_over">Oyun Bitti</string>
+    <string name="pause">Duraklatıldı</string>
+    <string name="oyla">Uygulamayı Oyla</string>
+    <string name="market">Diğer Uygulamalarım</string>
+    <string name="mute">Sessiz</string>
+    <string name="exit">Çıkış</string>
+    <string name="rank">Sıralama</string>
+    <string name="start">Başlat</string>
+    <string name="bestscore">Yüksek Skor :</string>
+    <string name="score">Skor :</string>
+    <string name="areyousure">Çıkmak istediğinden emin misin?</string>
+    <string name="yes">EVET</string>
+    <string name="no">HAYIR</string>
+    <string name="signError">Google Oyunlar oturumu açılamadı!</string>
+</resources>

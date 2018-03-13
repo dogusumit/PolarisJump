@@ -1,0 +1,116 @@
+<RelativeLayout xmlns:android="http://schemas.android.com/apk/res/android"
+    xmlns:ads="http://schemas.android.com/apk/res-auto"
+    android:layout_width="match_parent"
+    android:layout_height="match_parent"
+    android:background="@drawable/arkaplan">
+
+    <ImageButton
+        android:id="@+id/main_button1"
+        android:layout_width="match_parent"
+        android:layout_height="80dp"
+        android:layout_centerInParent="true"
+        android:layout_margin="40dp"
+        android:scaleType="fitCenter"
+        android:background="@android:color/transparent"
+        android:contentDescription="@string/start"
+        android:src="@drawable/ic_play" />
+
+    <TextView
+        android:id="@+id/main_text1"
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        android:layout_above="@id/main_button1"
+        android:layout_centerHorizontal="true"
+        android:textSize="20sp"
+        android:layout_margin="40dp"
+        android:text="@string/app_name"
+        android:textColor="@android:color/white" />
+
+    <TextView
+        android:id="@+id/main_text2"
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        android:layout_above="@id/main_text1"
+        android:layout_centerHorizontal="true"
+        android:text="@string/bestscore"
+        android:textColor="@android:color/white" />
+
+
+    <TextView
+        android:id="@+id/main_text3"
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        android:layout_above="@id/main_text2"
+        android:layout_centerHorizontal="true"
+        android:text="@string/score"
+        android:textColor="@android:color/white" />
+
+    <LinearLayout
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content"
+        android:layout_below="@id/main_button1"
+        android:layout_margin="30dp"
+        android:gravity="center"
+        android:orientation="horizontal">
+
+        <ImageButton
+            android:id="@+id/main_button2"
+            android:layout_width="match_parent"
+            android:layout_height="match_parent"
+            android:layout_weight="1"
+            android:background="@android:color/transparent"
+            android:contentDescription="@string/mute"
+            android:src="@drawable/ic_volume" />
+
+        <ImageButton
+            android:id="@+id/main_button3"
+            android:layout_width="match_parent"
+            android:layout_height="match_parent"
+            android:layout_weight="1"
+            android:background="@android:color/transparent"
+            android:contentDescription="@string/rank"
+            android:src="@drawable/ic_rank" />
+
+        <ImageButton
+            android:id="@+id/main_button4"
+            android:layout_width="match_parent"
+            android:layout_height="match_parent"
+            android:layout_weight="1"
+            android:background="@android:color/transparent"
+            android:contentDescription="@string/exit"
+            android:src="@drawable/ic_exit" />
+
+    </LinearLayout>
+
+    <ImageButton
+        android:id="@+id/main_button5"
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        android:layout_alignParentLeft="true"
+        android:layout_alignParentTop="true"
+        android:layout_margin="30dp"
+        android:background="@android:color/transparent"
+        android:contentDescription="@string/oyla"
+        android:src="@drawable/ic_oyla" />
+
+    <ImageButton
+        android:id="@+id/main_button6"
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        android:layout_alignParentRight="true"
+        android:layout_alignParentTop="true"
+        android:layout_margin="30dp"
+        android:background="@android:color/transparent"
+        android:contentDescription="@string/market"
+        android:src="@drawable/ic_market" />
+
+    <com.google.android.gms.ads.AdView
+        android:id="@+id/adView"
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        android:layout_alignParentBottom="true"
+        android:layout_centerHorizontal="true"
+        ads:adSize="BANNER"
+        ads:adUnitId="@string/banner_ad_unit_id" />
+
+</RelativeLayout>
