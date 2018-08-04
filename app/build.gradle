@@ -1,13 +1,13 @@
 apply plugin: 'com.android.application'
 
 android {
-    compileSdkVersion 26
+    compileSdkVersion 28
     defaultConfig {
         applicationId 'com.dogusumit.game'
         minSdkVersion 14
-        targetSdkVersion 26
-        versionName '1'
-        versionCode 1
+        targetSdkVersion 28
+        versionName '2'
+        versionCode 2
     }
     buildTypes {
         release {
